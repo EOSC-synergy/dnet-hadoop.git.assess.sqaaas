@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-ecru-corgi.sh
-        container: qc.acc_skimpy-alizarin-caiman
+        - /usr/bin/env sh .sqa/script.bluesy-silver-gar.sh
+        container: qc.acc_squeaky-ecru-fowl
   QC.Doc:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-razzmatazz-moose.sh
-        container: qc.doc_stinky-chartreuse-birman
+        - /usr/bin/env sh .sqa/script.goopy-plum-vulture.sh
+        container: qc.doc_crappy-white-chimpanzee
       code-repo.d4science.org/D-Net/dnet-hadoop git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-teal-orangutan.sh
-        container: qc.doc_geeky-alizarin-swan
+        - /usr/bin/env sh .sqa/script.thirsty-auburn-nightingale.sh
+        container: qc.doc_grumpy-azure-anteater
       code-repo.d4science.org/D-Net/dnet-hadoop markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-platinum-starfish.sh
-        container: qc.doc_geeky-taupe-dingo
+        - /usr/bin/env sh .sqa/script.sleazy-cyan-whale.sh
+        container: qc.doc_skinny-corn-stoat
   QC.Lic:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-cinnabar-turtle.sh
-        container: qc.lic_flimsy-malachite-bloodhound
+        - /usr/bin/env sh .sqa/script.hasty-olive-tzu.sh
+        container: qc.lic_cloudy-crimson-bloodhound
   QC.Sec:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-charcoal-meerkat.sh
-        container: qc.sec_stealthy-copper-lionfish
+        - /usr/bin/env sh .sqa/script.ugly-jade-monkey.sh
+        container: qc.sec_dorky-xanthic-macaw
   QC.Sty:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-olivine-akbash.sh
-        container: qc.sty_skinny-firebrick-retriever
+        - /usr/bin/env sh .sqa/script.pasty-pear-baboon.sh
+        container: qc.sty_sleepy-mauve-wombat
       code-repo.d4science.org/D-Net/dnet-hadoop flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-tangerine-moose.sh
-        container: qc.sty_trippy-olive-zebu
+        - /usr/bin/env sh .sqa/script.lovely-tangerine-ant.sh
+        container: qc.sty_sickly-khaki-labradoodle
       code-repo.d4science.org/D-Net/dnet-hadoop jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-russet-gopher.sh
-        container: qc.sty_snippy-olive-tuatara
+        - /usr/bin/env sh .sqa/script.sickly-wheat-bombay.sh
+        container: qc.sty_queasy-lilac-affenpinscher
   QC.Uni:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-harlequin-dhole.sh
-        container: qc.uni_breezy-plum-whale
+        - /usr/bin/env sh .sqa/script.muggy-cornflower-quetzal.sh
+        container: qc.uni_wheezy-amber-kingfisher
   QC.Ver:
     repos:
       code-repo.d4science.org/D-Net/dnet-hadoop get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-dandelion-foxhound.sh
-        container: qc.ver_lumpy-copper-wolverine
+        - /usr/bin/env sh .sqa/script.crappy-cerise-snake.sh
+        container: qc.ver_clammy-plum-ray
 timeout: 5400
